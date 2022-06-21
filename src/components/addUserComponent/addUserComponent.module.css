@@ -1,0 +1,52 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+}
+.mainContainer h1{
+    color: #001866;
+    font-weight: bold;
+    font-size: 25px;
+}
+.mainContainer form{
+    max-width: 600px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mainContainer button{
+    margin-top: 20px !important;
+    background-color: #FD8E35;
+    color: #fff;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px; 
+}
+.mainContainer form input{
+    background-color: transparent;
+    border-bottom: solid 1px #FD8E35;
+    outline: none;
+}
+.mainContainer form select{
+    background-color: #003cff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 3px;
+    height: 30px;
+}
+.mainContainer h1{
+    text-align: center;
+}
+.birthContainer label{
+    text-align: center;
+    width: 100%;
+    display: block  ;
+}
+.birthContainerInfo{
+    display: flex;
+    justify-content: center;
+}
+.birthContainerInfo input{
+    max-width: 100px;
+}

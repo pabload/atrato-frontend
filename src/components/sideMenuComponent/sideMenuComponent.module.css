@@ -1,0 +1,54 @@
+.mainContainer{
+    min-height: 100vh;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    z-index: 100;
+}
+.headerContainer{
+    padding: 40px 20px;
+}
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+}
+.menuContainer button{
+    padding: 10px 0;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.menuContainer button:hover{
+    background:#E3E5E9 !important;
+}
+.menuContainer button svg{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width:1024px) {
+    .mainContainer img{
+        width: 100px;
+        margin: auto;
+    }
+    .mainContainer{
+        position: fixed !important;
+        bottom: 0 !important;
+        height: fit-content !important;
+        min-height: unset;
+        width: 100% !important;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: relative;
+        z-index: 100;
+    }
+    .menuContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menuContainer button{
+        width: 200px;
+    }
+} 

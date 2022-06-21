@@ -1,0 +1,14 @@
+.mainContainer{
+    min-height: 100vh;
+    display: flex;
+    background-color: #F8F8F9;
+    max-width: 2000px;
+    margin: auto;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .mainContainer{
+        flex-wrap: wrap;
+    }
+} 

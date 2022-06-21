@@ -1,0 +1,46 @@
+.mainContainer > * {
+    justify-self: center;
+}
+.filterContainer > button{
+    margin: 30px 0;
+}
+.filterContainer div > button,
+.filterContainer select,
+.filterContainer > button{
+  background-color: #FD8E35;
+  color: #fff;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.filterContainer div > button{
+    width: 100px;
+}
+.filterContainer  h2{
+  font-size: 20px;
+}
+.filterContainer div{
+    margin: 20px 0;
+}
+.filterContainer div >div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.filterContainer input{
+    min-width: 200px;
+    margin: 0 20px;
+    background-color: transparent;
+    outline: none;
+    border-bottom: solid 1px #FD8E35;
+}
+.filterContainer select{
+    margin: 0 20px;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .mainContainer{
+        padding-bottom: 300px;
+    }
+} 
+
